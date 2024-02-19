@@ -88,10 +88,10 @@ IDs:
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 
-  /* simpler version */
-  --bs-font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* simple fonts */
+    --bs-font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 
   --bs-body-font-size: 1.4rem;
   --bs-body-font-weight: 400;
@@ -10888,7 +10888,7 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   /* padding-top: calc(7rem + 200px); */
   padding-bottom: 3rem;
-  background: url('../assets/img/01.jpg');
+  background: url('../assets/img/masthead-pic.webp');
   background-repeat: no-repeat;
   background-position: centre center;
   background-attachment: scroll;
