@@ -9,9 +9,38 @@
 
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
+        <!-- Preload the masthead image -->
+        <link rel="preload" as="image" href="../assets/img/masthead-pic.webp" />
+
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+        <style>
+            /* Add critical styles directly in the head to improve rendering speed */
+            body {
+                margin: 0;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                font-size: 1rem;
+                font-weight: normal;
+                line-height: 1.5;
+                color: #212529;
+                text-align: left;
+                background-color: #fff;
+            }
+            .masthead {
+                position: relative;
+                overflow: hidden;
+                padding-top: calc(7rem + 72px);
+                padding-bottom: 3rem;
+                background: url('../assets/img/masthead-pic.webp');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: scroll;
+                background-size: cover;
+            }
+        </style>
     </head>
+
 
     <body id="page-top">
         <!-- Navigation-->
